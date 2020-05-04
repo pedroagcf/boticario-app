@@ -1,7 +1,15 @@
 import React from "react";
 
+import ProductsPage from "../ProductsPage/ProductsPage";
+
 const HomePage = () => {
-  return <h1>HomePage component</h1>;
+  return (
+    <React.Fragment>
+      <section className="homePage">
+        <ProductsPage />
+      </section>
+    </React.Fragment>
+  );
 };
 
 export default HomePage;
