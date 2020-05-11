@@ -30,7 +30,9 @@ const ProductsPage = () => {
   return (
     <section className="products">
       <h1 className="products__category">Ultimos Produtos</h1>
-      <ProductCard />
+      {products.map((produto, key) => (
+        <ProductCard produto={produto} key={key} />
+      ))}
     </section>
   );
 };

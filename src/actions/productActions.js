@@ -8,9 +8,9 @@ export function loadCourse() {
     .then((produtos) => {
       dispatcher.dispatch({
         actionType: actionTypes.LOAD_PRODUCTS,
-        produtos: produtos,
+        produtos: produtos.data,
       });
-      console.log(produtos);
+      console.log(`load course ${produtos.data}`);
     })
     .catch((err) => {
       console.log(err);
