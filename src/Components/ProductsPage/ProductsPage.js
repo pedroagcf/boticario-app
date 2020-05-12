@@ -29,10 +29,12 @@ const ProductsPage = () => {
 
   return (
     <section className="products">
-      <h1 className="products__category">Ultimos Produtos</h1>
-      {products.map((produto, key) => (
-        <ProductCard produto={produto} key={key} />
-      ))}
+      <h1 className="products__title">Ultimos Produtos</h1>
+      <div className="products__group">
+        {products.map((produto, key) => (
+          <ProductCard produto={produto} key={key} />
+        ))}
+      </div>
     </section>
   );
 };

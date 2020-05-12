@@ -1,0 +1,32 @@
+.product__card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vh 4vw;
+  background-color: #f2f2f2;
+  border: solid 2px #f7f6f6;
+  margin: 8px 0px;
+
+  &:hover {
+    transition: all 0.8s;
+    background-color: #fff;
+  }
+
+  &__photo {
+    width: 200px;
+    height: 250px;
+  }
+
+  &__name, 
+  &__price {
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #717171;
+  }
+}

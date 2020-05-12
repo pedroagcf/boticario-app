@@ -10,7 +10,6 @@ export function loadCourse() {
         actionType: actionTypes.LOAD_PRODUCTS,
         produtos: produtos.data,
       });
-      console.log(`load course ${produtos.data}`);
     })
     .catch((err) => {
       console.log(err);
