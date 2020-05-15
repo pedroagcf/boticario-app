@@ -1,3 +1,4 @@
 export default {
   LOAD_PRODUCTS: "LOAD_PRODUCTS",
+  ADD_CART_VALUE: "ADD_CART_VALUE",
 };

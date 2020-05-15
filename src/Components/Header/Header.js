@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import GoToCartIcon from "../GoToCartIcon/GoToCartIcon"
+
 const Header = () => {
   return (
     <header className="header">
@@ -25,7 +27,8 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <span className="header__goToCart"></span>
+      <GoToCartIcon />
+      {/* <span className="header__goToCart"></span> */}
     </header>
   );
 };

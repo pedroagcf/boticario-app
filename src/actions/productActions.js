@@ -15,3 +15,10 @@ export function loadCourse() {
       console.log(err);
     });
 }
+
+export function sendValueProd(valor) {
+  return dispatcher.dispatch({
+    actionType: actionTypes.ADD_CART_VALUE,
+    valorProduto: valor,
+  });
+}
