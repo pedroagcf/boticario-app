@@ -11,4 +11,4 @@ o mesmo desafio tambem pode ser encontrado [aqui][desa]
 
 contato e sugestoes de melhoria sao sempre bem vindas!
 
-contato: 26pedrocastro@gmail.com
+26pedrocastro@gmail.com
