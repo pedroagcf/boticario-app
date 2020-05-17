@@ -5,7 +5,7 @@ import actionTypes from "../actions/actionTypes";
 
 const CHANGE_EVENT = "change";
 let _produtos = [];
-let _valorProdutos = 0;
+let _valorProdutos = [];
 
 class ProductStore extends EventEmitter {
   addChangeListener(callback) {
@@ -21,7 +21,9 @@ class ProductStore extends EventEmitter {
     return _produtos;
   }
   getValorProdutos() {
-    return _valorProdutos;
+    return _valorProdutos.reduce((acumulador, numero) => {
+      return acumulador += numero;
+    }, 0)
   }
 }
 
@@ -35,7 +37,7 @@ Dispatcher.register((action) => {
       break;
 
     case actionTypes.ADD_CART_VALUE:
-      _valorProdutos = action.valorProduto;
+      _valorProdutos.push(action.valorProduto);
       store.emitChange();
       break;
 

@@ -8,8 +8,6 @@ const GoToCartIcon = () => {
 
     useEffect(() => {
         productStore.addChangeListener(onchange);
-
-        // productActions.sendValueProd()
     })
 
     function onchange() {
