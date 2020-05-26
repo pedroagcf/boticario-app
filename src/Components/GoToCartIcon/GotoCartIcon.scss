@@ -1,0 +1,17 @@
+.header__goToCart {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: solid #7F7E7E 2px;
+    border-radius: 50px;
+    
+    &__icon {
+        margin-right: 5px;
+    }
+
+    &__price {
+        font-family: MyriadPro-Regular, sans-serif;
+        font-size: 1rem;
+        color: #7f7f7f;
+    }
+}

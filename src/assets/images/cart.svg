@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.739" height="25.104" viewBox="0 0 26.739 25.104">
+  <defs>
+    <filter id="Shape_3_copy" x="0" y="0" width="26.739" height="25.104" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Shape_3_copy)">
+    <path id="Shape_3_copy-2" data-name="Shape 3 copy" d="M1210.913,61.481a2.611,2.611,0,0,1,.06-.558h-6.839a2.614,2.614,0,1,1-4.465-1.221l-4.15-17.689h-3.148c-.481,0-.87-.577-.87-1.057a.955.955,0,0,1,.87-.965h3.844c.407,0,.76.563.85.959l1.211,5.1h19.093a.871.871,0,0,1,.831,1.133l-3.033,9.2a.872.872,0,0,1-.832.609h-13.461l.449,1.889q.128-.013.26-.013a2.6,2.6,0,0,1,.694.094h10.557a2.613,2.613,0,1,1-1.919,2.519Zm1.742,0a.871.871,0,1,0,.87-.87h-.031a.927.927,0,0,1-.636.311A.866.866,0,0,0,1212.656,61.481Zm-11.947,0a.871.871,0,1,0,1.539-.558h-1.336A.866.866,0,0,0,1200.709,61.481Z" transform="translate(-1191.5 -39.99)" fill="#7f7e7e"/>
+  </g>
+</svg>

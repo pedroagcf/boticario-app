@@ -21,7 +21,7 @@ class ProductStore extends EventEmitter {
     return _produtos;
   }
   getValorProdutos() {
-    return _valorProdutos.reduce((acumulador, numero) => {
+    return _valorProdutos.reduce((acumulador = 0, numero) => {
       return acumulador += numero;
     }, 0)
   }
